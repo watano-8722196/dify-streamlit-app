@@ -1,6 +1,8 @@
 import streamlit as st
 import requests
 
+api_key = st.secrets["DIFY_API_KEY"]
+
 # タイトルを設定
 st.title("🤖 AI面接官")
 
